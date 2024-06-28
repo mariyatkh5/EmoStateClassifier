@@ -6,6 +6,7 @@ This project focuses on processing Electrodermal Activity (EDA) data, integratin
 Install dependencies:
 
 Make sure you have Python 3.x installed.
+
 You can install the required Python packages using pip:
 pip install pandas numpy neurokit2 scipy scikit-learn mlxtend deap openpyxl
 
