@@ -267,7 +267,7 @@ for speed in [1, 2]:
                         })
 
             summary_df = pd.DataFrame(summary)
-            output_file = f'evaluation_results_ohensf{speed}.csv'
+            output_file = f'evaluation_results{speed}.csv'
             summary_df.to_csv(output_file, index=False)
             print(f"Results saved to {output_file}")
 
