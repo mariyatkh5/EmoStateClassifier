@@ -35,6 +35,7 @@ classifiers = {
     'XGBTREE': GradientBoostingClassifier(random_state=42),
     'LDA': LinearDiscriminantAnalysis(),
     'TBAG': BaggingClassifier(estimator=DecisionTreeClassifier(random_state=42, class_weight='balanced'), random_state=42),
+    
 }
 
 # Iterate over each speed setting
